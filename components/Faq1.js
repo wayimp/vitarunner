@@ -112,7 +112,7 @@ export function Faq1() {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' textAlign='left'>
-                                Do you have minimum quantity orders or MOQ's?
+                                Do you have minimum quantity orders or MOQ&aposs?
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>

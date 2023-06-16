@@ -53,7 +53,7 @@ const ContactForm: React.FC<ChakraProps & ThemingProps> = ({
   colorScheme = "yellow",
 }) => {
   const [
-    formData, // eslint-disable-line @typescript-eslint/no-unused-vars
+    formData,
     setFormData,
   ] = useState<ContactFormValues>();
 
