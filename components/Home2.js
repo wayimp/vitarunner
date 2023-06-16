@@ -11,7 +11,7 @@ const Feature = ({ title, text }) => {
 
 export function Home2() {
   return (
-    <Box background={'#3C6474'} p={'10%'}>
+    <Box background={'#3C6474'} p={'5%'}>
       <Stack>
         <Heading fontWeight={400} textStyle='h1' as='h1' fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }} color={'white'} mb={6}>Services Offered</Heading>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>

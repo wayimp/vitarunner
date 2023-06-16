@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import Head from 'next/head'
 import {
     Box,
     Flex,
@@ -44,6 +45,22 @@ export function TopBar() {
 
     return (
         <>
+            <Head>
+                <title>Vitarunner</title>
+                <meta
+                    name='description'
+                    content="Boost Your Health with Vitarunner&#x27;s Neutraceuticals"
+                />
+                <meta charSet="utf-8" />
+                <meta name="viewport" content="width=device-width" />
+                <meta name="theme-color" content="#002e45" />
+                <link rel="icon" href="/favicon.ico" />
+                <meta name="keywords" content="neutraceuticals, natural supplements, Vitarunner, boost health, improve health" />
+                <meta property="og:title" content="Vitarunner" />
+                <meta property="og:type" content="website" />
+                <meta property="og:description" content="Boost Your Health with Vitarunner&#x27;s Neutraceuticals" />
+                <meta property='og:image' content='/logo.png' />
+            </Head>
             <Box bg={useColorModeValue('#002E45')} px={4}>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <IconButton

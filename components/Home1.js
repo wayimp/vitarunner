@@ -12,7 +12,7 @@ import NextImage from 'next/image'
 
 export function Home1() {
     return (
-        <Stack minH={'80vh'} direction={{ base: 'column', md: 'row' }} background='#587784' >
+        <Stack p={'5%'} minH={'80vh'} minW={'100vw'} direction={{ base: 'column', md: 'row' }} background='#587784' >
             <Flex flex={1} align={'center'} justify={'center'}>
                 <Image
                     borderRadius='6px'

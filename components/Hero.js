@@ -26,14 +26,14 @@ export function Hero() {
           <VStack>
             <br />
             <br />
-            <Text
+            <Heading
               align='center'
               fontSize={['3xl', '4xl', '5xl']}
               color={'white'}
               className='outline'
             >
               Private Label Solutions for Clinics
-            </Text>
+            </Heading>
             <br />
             <Text
               align='center'
