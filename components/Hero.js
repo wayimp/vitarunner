@@ -43,7 +43,7 @@ export function Hero() {
               lineHeight={'140%'}
               letterSpacing={'+20%'}
             >
-              Vitarunner specializes in streamlining private label supplement/nutraceutical solutions for alternative health clinics with one priority in mind - your patient's wellbeing.
+              Vitarunner specializes in streamlining private label supplement/nutraceutical solutions for alternative health clinics with one priority in mind - your patient&apos;s wellbeing.
             </Text>
           </VStack>
         </Center>
