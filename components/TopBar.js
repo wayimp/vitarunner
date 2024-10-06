@@ -22,7 +22,7 @@ import logo from '../public/logo.png'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import NextImage from 'next/image'
 
-const Links = ['Home', 'Services', 'FAQ', 'Contact'];
+const Links = ['Home', 'FAQ', 'Contact'];
 
 const NavLink = ({ children }) => (
     <Link

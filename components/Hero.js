@@ -17,7 +17,7 @@ export function Hero() {
   return (
     <Flex
       w={'full'}
-      backgroundImage={'url(/supplements.jpg)'}
+      backgroundImage={'url(/products.jpg)'}
       backgroundSize={'cover'}
       backgroundPosition={'left top'}
     >
