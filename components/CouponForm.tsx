@@ -28,7 +28,6 @@ import {
 interface CouponFormValues {
     fullName: string;
     email: string;
-    message: string;
     accept: boolean;
 }
 
@@ -45,8 +44,7 @@ const schema = yup
         email: yup
             .string()
             .email("Please enter a valid email")
-            .required("Email is a required field"),
-        message: yup.string().required("Message is a required field"),
+            .required("Email is a required field")
     })
     .required();
 
@@ -79,8 +77,8 @@ const CouponForm: React.FC<ChakraProps & ThemingProps> = ({
             .then(response => {
                 if (response && response.status === 200) {
                     toast({
-                        title: 'Message sent.',
-                        description: "Your message was sent successfully",
+                        title: 'Signed up.',
+                        description: "Check email for coupon code",
                         status: 'success',
                         duration: 9000,
                         isClosable: true,
@@ -90,15 +88,15 @@ const CouponForm: React.FC<ChakraProps & ThemingProps> = ({
             })
             .catch(function () {
                 toast({
-                    title: 'Message sending error.',
-                    description: 'There was a problem sending your message',
+                    title: 'Sign up error.',
+                    description: 'There was a problem signing up for the newsletter',
                     status: 'error',
                     duration: 9000,
                     isClosable: true,
                 })
             })
 
-        setFormData({ fullName: '', email: '', message: '', accept: false })
+        setFormData({ fullName: '', email: '', accept: false })
     };
 
     const inputBG = useColorModeValue("gray.50", "gray.800");
