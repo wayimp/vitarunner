@@ -115,7 +115,7 @@ const CouponForm: React.FC<ChakraProps & ThemingProps> = ({
                     <chakra.form onSubmit={handleSubmit(onSubmit)} noValidate>
                         <Stack direction="column" spacing={[2, 4, 8]}>
                             <Heading textStyle='h2' as='h2' fontSize={{ base: '1xl', md: '2xl', lg: '3xl' }}  fontWeight={400}>
-                                Monthly Email Newsletter (Coupon Codes)
+                                Free Gift (10% Off Coupon Code)
                             </Heading><Stack
                                 direction={["column", "column", "row"]}
                                 spacing={[2, 4, 8, 10]}
