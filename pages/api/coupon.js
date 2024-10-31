@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
   try {
     email(body.email, "Nutricel Methylene Blue Coupon Code",
-        `Get 10% off everything on Amazon: https://www.amazon.com/promocode/A33SFPHIC8J16C`
+        `Get 10% off everything on Amazon: https://www.amazon.com/promocode/A2SUWY8H436L7L`
       )
     res.status(200).send()
   } catch (err) {

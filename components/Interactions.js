@@ -65,6 +65,7 @@ export function Interactions() {
           <Severe text='cocaine nasal' />
           <Severe text='cocaine topical' />
           <Severe text='codeine' />
+          <Moderate text='coenzyme Q10' />
           <Severe text='cyclobenzaprine' />
           <Moderate text='deserpidine' />
           <Severe text='desipramine' />
